@@ -1,0 +1,56 @@
+.outer-wrapper {
+    header {
+      nav {
+        ul > li:first-child {
+          background-color: crimson;
+          font-weight: bolder;
+        }
+      }
+    }
+  
+    section > p:first-of-type:not(.sub-section > p) {
+      font-size: 48px;
+      color: magenta;
+    }
+  
+    section + p :last-of-type {
+      box-shadow: 1px 2px 2px 1px;
+      padding: 5px 3px;
+  
+    }
+    section {
+      h2 + p {
+        font-style: oblique;
+        margin-top: 10px;
+        color: red;
+      }
+  
+      .sub-section p {
+        background-color: brown;
+        padding: 2px 3px;
+      }
+  
+        .sub-section {
+          h3 + p {
+            font-weight: bold; /* Corrected to font-weight */
+            color: blue; /* Final color to apply */
+            font-size: 18px;
+          }
+        }
+  
+      .sub-section > p {
+        border: 1px solid black;
+        font-style: italic;
+      }
+  
+  
+  
+  
+      h2 ~ p :not(.sub-section > p){
+        font-style: oblique;
+        margin-top: 2px;
+        color: green;
+      }
+    }
+  }
+  

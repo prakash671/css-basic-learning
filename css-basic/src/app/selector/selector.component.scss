@@ -1,0 +1,28 @@
+.wrapper p {
+    font-size: 18px;
+    color: gray;
+  }
+  
+  .wrapper > p {
+    background-color: lightblue;
+    padding: 10px;
+  }
+  
+  .wrapper {
+    h1 + p {
+      font-weight: bold;
+      color: navy;
+    }
+  
+    h2 ~ p {
+      color: green;
+      font-style: italic;
+    }
+  
+    .inner-wrapper {
+      h1 + p {
+          color: orangered;
+      }
+    }
+  }
+  

@@ -1,0 +1,10 @@
+	1.	Descendant Selector:
+	•	Style all <p> elements inside .wrapper to have a font size of 18px and color gray.
+	2.	Child Selector:
+	•	Only style the direct <p> children of .wrapper with a background color of lightblue and padding of 10px.
+	3.	Adjacent Sibling Selector:
+	•	Style the first <p> element that comes directly after any <h1> with a font weight of bold and color navy.
+	4.	General Sibling Selector:
+	•	Style all <p> elements that are siblings of any <h2> with a text color of green and font style of italic.
+	5.	Combination Task:
+	•	Apply a different color to all <p> elements that are directly after an <h1> but only inside .inner-wrapper.

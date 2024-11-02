@@ -1,0 +1,29 @@
+	1.	Complex Descendant Selector:
+	•	Style all <p> elements that are inside any .sub-section but not inside any other elements within .outer-wrapper 
+    (e.g., not inside header, footer, etc.). Use a different background color and padding.
+
+	2.	Nested Child Selector:
+	•	Within each section, apply styles to the <p> elements 
+    that are direct children of .sub-section with a border, and change the font style.x
+
+
+	3.	Combination of Adjacent and General Sibling Selectors:
+	•	For any <p> that comes immediately after an <h3> in the .sub-section, apply bold styling and change the text color.
+	•	Additionally, style all <p> elements that follow any <h2> within a section, 
+    but make sure they are not the direct children of a .sub-section.
+
+
+
+	4.	Advanced Combination Task:
+	•	Target the first <p> inside each section that is not part of any .sub-section and apply a unique font size and color.
+	•	Also, style the first <li> in the nav > ul using a combinatorial approach, 
+    ensuring that it looks distinct from the other list items.
+
+
+	5.	Challenge Task:
+	•	Use a combinator to apply a specific style to the last <p> within each section that follows any .sub-section. 
+    Apply a box shadow and padding to these paragraphs.
+
+
+
+
